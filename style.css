@@ -102,6 +102,11 @@ body{
     font-size: 5em;
     color:var(--color1) ;
 }
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .winning-message-text{
+        font-size: 3em;
+    }
+}
 .winning-message-button:hover{
     background-color: var(--color2);
     color:#081C15;
